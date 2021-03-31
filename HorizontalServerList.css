@@ -1,0 +1,210 @@
+/* HORIZONTAL SERVER LIST BY PURPLE WIZARD */
+
+.base-3dtUhz {
+    top: calc(15px + 10px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    left: 0;
+}
+
+.platform-osx .base-3dtUhz {
+    top: calc(57px + var(--ServerSize) * var(--ServerColumns));
+}
+
+.root-SR8cQa {
+    width: calc(100vw - 265px);
+    top: calc(48px + var(--ServerSize) * var(--ServerColumns))
+}
+
+.guilds-1SWlCJ:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: calc(25px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    background-color: var(--TitleBG);
+}
+
+.platform-web #app-mount:before {
+    top: 0;
+}
+
+.guilds-1SWlCJ {
+    background: transparent !important;
+    padding-top: .25em;
+    width: 100%;
+    position: unset;
+    height: 100%;
+    width: 100%;
+}
+
+.expandedFolderBackground-2sPsd- {
+    border-radius: .25em 0 0 .25em !important;
+}
+
+.expandedFolderBackground-2sPsd-.collapsed-1GMuSb {
+    border-radius: .25em !important;
+    height: var(--ServerSize);
+}
+
+.guilds-1SWlCJ div[class^=scroller-] .listItem-GuPuDH div[class*='pill'], .tutorialContainer-SGrQ1h .pill-3YxEhL {
+    height: 5px !important;
+    top: -7px;
+    left: 0px !important;
+    width: 100% !important;
+    transform: none;
+    border-radius: 5px;
+}
+
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]::-webkit-scrollbar {
+    width: .75rem;
+}
+
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]::-webkit-scrollbar-thumb {
+    border-radius: 2.5px 0 0 2.5px;
+}
+
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>div:first-child {
+    margin-left: 0 !important
+}
+
+.tutorialContainer-1v44GL,
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]+.tutorialContainer-SGrQ1h,
+.tutorialContainer-SGrQ1h+.listItem-GuPuDH,
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.listItem-GuPuDH,
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label]>.wrapper-3Njo_c {
+    margin: 10px 0 5px 5px !important;
+    max-height: var(--ServerSize);
+    border-radius: .25em;
+    padding: 0px;
+}
+
+#app-mount .wrapper-3Njo_c {
+    width: auto !important;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+#app-mount .wrapper-3Njo_c [role=group] {
+    display: flex;
+    align-items: center;
+    height: auto !important;
+    border-radius: 0 .25em .25em 0;
+}
+
+.guilds-1SWlCJ>ul>div[class^=scroller-]>.tutorialContainer-1v44GL, .guilds-1SWlCJ ul div[class^=scroller-]>.tutorialContainer-SGrQ1h, .guilds-1SWlCJ>ul>div[class^=scroller-]>div:last-child {
+    background-color: transparent;
+}
+
+/* PMs */
+
+.tutorialContainer-1v44GL {
+    order: 0;
+}
+
+.tutorialContainer-SGrQ1h {
+    margin-left: 5px !important;
+}
+
+.guilds-1SWlCJ div[class^=scroller-] {
+    display: flex;
+    contain: unset;
+    width: 100%;
+    height: calc(15px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+}
+
+.expandedFolderIconWrapper-1xLaU- {
+    width: 100%;
+    height: 100%;
+}
+
+.expandedFolderBackground-2sPsd- {
+    min-height: var(--ServerSize);
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.guilds-1SWlCJ>.scrollerWrap-2lJEkd>div[class^=scroller-]>.listItem-GuPuDH {
+    background-color: var(--grey);
+    margin-left: 5px !important;
+    border-radius: .35em;
+}
+
+#app-mount .guilds-1SWlCJ div[class^=scroller-]>div[style*="opacity: 1;"]:first-child {
+    margin: 10px 5px 0 5px;
+}
+
+.tutorialContainer-SGrQ1h+.listItem-GuPuDH .pill-3YxEhL .wrapper-sa6paO, .tutorialContainer-SGrQ1h .pill-3YxEhL .wrapper-sa6paO, .item-2hkk8m {
+    height: 5px !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+#app-mount .guilds-1SWlCJ div[class^=scroller-]>div[style*="opacity: 1;"]:not(:first-child) {
+    margin: 10px 0 0 5px;
+    order: 1;
+}
+
+.tutorialContainer-SGrQ1h, .tutorialContainer-SGrQ1h+.listItem-GuPuDH {
+    order: 2;
+}
+
+.guilds-1SWlCJ div[class^=scroller-]>div[aria-label] {
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(15px * var(--ServerColumns) + var(--ServerSize) * var(--ServerColumns));
+    overflow: hidden auto;
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.guilds-1SWlCJ div[class^=scroller-]>.listItem-GuPuDH:first-child+.listItem-GuPuDH:not([style]), .guilds-1SWlCJ div[class^=scroller-]>div[style]:not(.listItem-GuPuDH)+.listItem-GuPuDH {
+    height: var(--ServerSize);
+}
+
+#bd-pub-li {
+    margin: 10px 0 0 5px;
+    overflow: hidden;
+    min-width: var(--ServerSize);
+    width: var(--ServerSize);
+    height: var(--ServerSize);
+}
+
+#bd-pub-button {
+    border-radius: .25em;
+    background: url("https://goldenlys.github.io/ThemeGen/img/public.png");
+    color: #ffffff;
+    font-size: 12px;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.panels-j1Uci_>.container-3baos1 {
+    border-radius: 0 5px 0 0;
+}
+
+.tutorialContainer-SGrQ1h+.listItem-GuPuDH {
+    margin: 10px 5px 0 5px !important;
+}
+
+.unreadMentionsIndicatorTop-2-tcdU {
+    top: calc(var(--ServerSize) + 8px);
+}
+
+.unreadMentionsIndicatorBottom-2mDYbI {
+    padding: 0;
+    height: 25px;
+    width: calc(0px + var(--ServerSize));
+    left: 10px;
+    top: calc(15px + var(--ServerSize));
+}
